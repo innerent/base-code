@@ -1,0 +1,15 @@
+{
+    "name": "Foundation",
+    "alias": "foundation",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Innerent\\Foundation\\Providers\\FoundationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helpers/helpers.php"
+    ],
+    "requires": []
+}

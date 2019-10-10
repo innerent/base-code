@@ -1,0 +1,25 @@
+{
+    "name": "innerent/contacts",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marcelo Barros da Silva",
+            "email": "maxcelos@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innerent\\Contacts\\Providers\\ContactsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Innerent\\Contacts\\": ""
+        }
+    }
+}

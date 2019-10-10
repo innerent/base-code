@@ -1,0 +1,13 @@
+{
+    "name": "Contacts",
+    "alias": "contacts",
+    "description": "",
+    "keywords": [],
+    "order": 1,
+    "providers": [
+        "Innerent\\Contacts\\Providers\\ContactsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
