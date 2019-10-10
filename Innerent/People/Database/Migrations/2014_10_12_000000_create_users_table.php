@@ -28,10 +28,6 @@ class CreateUsersTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
-
-        Schema::table('bank_accounts', function (Blueprint $table) {
-            $table->foreign('user_id')->references('id')->on('users');
-        });
     }
 
     /**
@@ -41,7 +37,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bank_accounts');
         Schema::dropIfExists('users');
     }
 }
