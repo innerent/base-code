@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return config('cors.cors_profile');
+    return '';
 });

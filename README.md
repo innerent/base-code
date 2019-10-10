@@ -21,14 +21,21 @@ cd basecode
 ```
 cp .env.example .env
 ```
+```
 
-3) Create an application key
+3) Install dependencies
+
+```
+composer install
+```
+
+4) Create an application key
 
 ```
 php artisan key:generate
 ```
 
-4) Create and setup a database
+5) Create and setup a database
 
 > On .env file
 ```
@@ -43,14 +50,14 @@ DB_PASSWORD=
 
 ```
 
-5) Run migration and seed (Laravel-Modules command)
+6) Run migration and seed (Laravel-Modules command)
 
 ```
 php artisan module:migrate
 php artisan module:seed
 ```
 
-6) Run tests
+7) Run tests
 
 ```
 phpunit
